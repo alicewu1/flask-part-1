@@ -4,6 +4,7 @@
 # pip3 install Flask
 # git clone (repo URL)
 #cd to Part1_Remote_GCP_Azure
+#python app.py
 #nano app.py to read/edit 
 from flask import Flask 
 
@@ -28,5 +29,5 @@ def resources():
 
 ## .run actually runs the app
 if __name__ == '__main__':
-    app.run(debug=True, host='0.0.0.0', port=80) 
+    app.run(debug=True, host='0.0.0.0', port=5000) #changed permission to resolve permission denied error 
     ## host set to 0.0.0.0 to match IP address of remote instance
