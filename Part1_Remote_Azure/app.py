@@ -26,7 +26,7 @@ def reports():
 def resources():
     return 'List of relevant news or articles'
 
-
+##sudo python3 app.py
 ## .run actually runs the app
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0', port=80) #changed permission to resolve permission denied error 
