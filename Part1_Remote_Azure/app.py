@@ -29,5 +29,5 @@ def resources():
 
 ## .run actually runs the app
 if __name__ == '__main__':
-    app.run(debug=True, host='0.0.0.0', port=5000) #changed permission to resolve permission denied error 
+    app.run(debug=True, host='0.0.0.0', port=80) #changed permission to resolve permission denied error 
     ## host set to 0.0.0.0 to match IP address of remote instance
