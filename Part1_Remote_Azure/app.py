@@ -3,11 +3,12 @@
 # sudo apt install python3-pip
 # pip3 install Flask
 # git clone (repo URL)
-# cd to Part1_Remote_GCP_Azure
+# cd to Part1_Remote_Azure
 # sudo python3 app.py
 # nano app.py to read/edit 
 # Ctrl + Z
 # bg
+# sudo nohup python3 app.py > log.txt 2>&1 &
 
 from flask import Flask 
 

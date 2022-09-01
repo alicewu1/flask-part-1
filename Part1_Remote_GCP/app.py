@@ -3,7 +3,7 @@
 # sudo apt install python3-pip
 # pip3 install Flask
 # git clone (repo URL)
-#cd to Part1_Remote_GCP_Azure
+#cd to Part1_Remote_GCP
 #python app.py
 #nano app.py to read/edit 
 
