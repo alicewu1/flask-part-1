@@ -6,6 +6,7 @@
 #cd to Part1_Remote_GCP_Azure
 #python app.py
 #nano app.py to read/edit 
+
 from flask import Flask 
 
 app = Flask(__name__)
