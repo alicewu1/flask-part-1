@@ -4,8 +4,11 @@
 # pip3 install Flask
 # git clone (repo URL)
 #cd to Part1_Remote_GCP
-#python app.py
-#nano app.py to read/edit 
+# sudo python3 app.py
+# nano app.py to read/edit 
+# Ctrl + Z
+# bg
+# sudo nohup python3 app.py > log.txt 2>&1 &
 
 from flask import Flask 
 
